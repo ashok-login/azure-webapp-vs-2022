@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_webapp_vs_2022</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/06450be8-a153-4607-ab20-9f0040d81134/resourcegroups/learn-azure/providers/microsoft.insights/components/azure-webapp-vs-2022-app-insights</ApplicationInsightsResourceId>
+    <UserSecretsId>d0def2c8-d40b-4af5-8a49-595d85a2f4b3</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
