@@ -21,6 +21,11 @@ namespace azure_webapp_vs_2022.Controllers
             return View();
         }
 
+        public IActionResult DeploymentSlots()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
